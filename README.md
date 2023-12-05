@@ -1,4 +1,4 @@
-# Attention(No numpy!)
+# Attention Mechanism
 
 A simple Pure Python from-scratch **zero-dependency** implementation of Original Attention mechanism from [Vaswani et al.](https://arxiv.org/pdf/1706.03762.pdf).
 
