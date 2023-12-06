@@ -7,7 +7,7 @@ import math
 
 context_length = 10
 model_dim = 64
-attention_head_dimension = model_dim
+attention_head_dimension = model_dim//4
 
 logits= [[random.uniform(-0.5,0.5) for _ in range(model_dim)] for _ in range(context_length)]
 query_matrix = [[random.uniform(-0.5,0.5) for _ in range(attention_head_dimension)] for _ in range(model_dim)]
